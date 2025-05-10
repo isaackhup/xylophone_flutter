@@ -15,12 +15,12 @@ class XylophoneApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Center(
-              child: TextButton(
-                  onPressed: (){
-                    player.play(AssetSource('note1.wav'));
-                  },
-                  child: const Text('Click me!'),
-              ),
+            child: TextButton(
+              onPressed: (){
+                player.play(AssetSource('note1.wav'));
+              },
+              child: const Text('Click me!'),
+            ),
           ),
         ),
       ),
