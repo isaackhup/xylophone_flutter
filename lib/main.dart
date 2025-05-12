@@ -24,19 +24,19 @@ class XylophoneApp extends StatelessWidget {
               ),
               TextButton(
                 onPressed: () => playSound(2),
-                child: Text('Click Me!', style: TextStyle(color: Colors.red, backgroundColor: Colors.red,),),
+                child: const Text('Click Me!', style: TextStyle(color: Colors.red, backgroundColor: Colors.red,),),
               ),
               TextButton(
                 onPressed: () => playSound(3),
-                child: Text('Click Me!', style: TextStyle(color: Colors.teal, backgroundColor: Colors.teal,),),
+                child: const Text('Click Me!', style: TextStyle(color: Colors.teal, backgroundColor: Colors.teal,),),
               ),
               TextButton(
                 onPressed: () => playSound(4),
-                child: Text('Click Me!', style: TextStyle(color: Colors.yellow, backgroundColor: Colors.yellow,),),
+                child: const Text('Click Me!', style: TextStyle(color: Colors.yellow, backgroundColor: Colors.yellow,),),
               ),
               TextButton(
                 onPressed: () => playSound(5),
-                child: Text('Click Me!', style: TextStyle(color: Colors.orange, backgroundColor: Colors.orange,),),
+                child: const Text('Click Me!', style: TextStyle(color: Colors.orange, backgroundColor: Colors.orange,),),
               ),
               TextButton(
                 onPressed: () => playSound(6),
@@ -44,7 +44,7 @@ class XylophoneApp extends StatelessWidget {
               ),
               TextButton(
                 onPressed: () => playSound(7),
-                child: Text('Click Me!', style: TextStyle(color: Colors.blue, backgroundColor: Colors.blue,),),
+                child: const Text('Click Me!', style: TextStyle(color: Colors.blue, backgroundColor: Colors.blue,),),
               ),
             ],
           ),
