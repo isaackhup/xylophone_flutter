@@ -4,11 +4,9 @@ import 'package:flutter/material.dart';
 void main() => runApp(XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
-  final AudioPlayer player = AudioPlayer();
-
-  XylophoneApp({super.key});
 
   void playSound(int soundNumber) {
+     final AudioPlayer player = AudioPlayer();
     player.play(AssetSource('note$soundNumber.wav'));
   }
 
