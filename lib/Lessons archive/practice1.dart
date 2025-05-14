@@ -19,8 +19,8 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               TextButton(
-                  onPressed: () => playSound(1),
-                  child: Text('Click Me!', style: TextStyle(color: Colors.red.shade900, backgroundColor: Colors.red.shade900)),
+                onPressed: () => playSound(1),
+                child: Text('Click Me!', style: TextStyle(color: Colors.red.shade900, backgroundColor: Colors.red.shade900)),
               ),
               TextButton(
                 onPressed: () => playSound(2),
