@@ -10,7 +10,7 @@ class XylophoneApp extends StatelessWidget {
     player.play(AssetSource('note$soundNumber.wav'));
   }
 
-  Expanded buildKey({Color? color, required int soundNumber}) {
+  Expanded buildKey({Color? color, required int soundNumber}) { // Use nullable types for parameters
     return Expanded(
       child: TextButton( // Use TextButton instead of FlatButton
         style: TextButton.styleFrom(
@@ -20,7 +20,7 @@ class XylophoneApp extends StatelessWidget {
           ),
         ),
         onPressed: () {
-            playSound(soundNumber);
+          playSound(soundNumber);
         },
         child: Container(), // TextButton requires a child, even if it's empty for a simple colored button
       ),
